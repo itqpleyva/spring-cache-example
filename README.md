@@ -10,7 +10,7 @@ Dependencias:
 <p>In the MirrorFruitRepository class a 4s delay is inserted in the <b>getByName (String name)</b> method to demonstrate the advantages of using the cache</p>
 <p>In the case of the first two results, the delay is not noticeable because as the search is repeated with the same parameter, the second result is the product of the cache</p>
 <ul>
-<li>Guayaba -->Coco -->Fruit [price=8, name=Coco]</li>
+<li>Coco -->Fruit [price=8, name=Coco]</li>
 <li>Coco -->Fruit [price=8, name=Coco]</li>
 </ul>
 <p>The same thing happens when obtaining the third result because the fourth request returns an already chased result.</p>
